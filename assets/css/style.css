@@ -1,0 +1,54 @@
+body {
+    background-image: url(../images/backgroundunderwater.jpg);
+    width: 100%;
+    margin: 0 auto;
+    color: aliceblue;
+    font-family: 'Cinzel Decorative', cursive;
+}
+h3 {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+}
+
+.backgroundtext {
+    color: white;
+}
+
+
+.seacreaturebox {
+    border: 2px solid black;
+    background-color: aliceblue;
+    width: 90%;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
+.seacreaturebox:hover {
+    border-color: red;
+}
+.boximage {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+.container {
+     text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+#attacker{
+    align-items: center;
+}
+
+section {
+    margin: 10px;
+}
+
+.defender {
+    border-color: red;
+}

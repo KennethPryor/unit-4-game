@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sea Creatures RPG Clicker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <h3 class="backgroundtext"></h3>
+</head>
+
+<body>
+    <h3 id="backgroundtext"></h3>
+    <div class="container">
+        <div class="row justify-content-center">
+            <section class="col-lg-3 seacreaturebox megalodon">
+                <img src="assets/images/megladon.jpg" class="boximage">
+                <h3 id="megalodon">Megalodon</h3>
+                <p id="megHealth"></p>
+            </section>
+            <section class="col-lg-3 seacreaturebox giantSquid">
+                <img src="assets/images/giant_squid.jpg" class="boximage">
+                <h3 id="giantSquid">Giant Squid</h3>
+                <p id="squidHealth"></p>
+            </section>
+            <section class="col-lg-3 seacreaturebox killerWhales">
+                <img src="assets/images/packofkwhales.jpg" class="boximage">
+                <h3>Killer Whale</h3>
+                <p id="whaleHealth"></p>
+            </section>
+            <section class="col-lg-3 seacreaturebox greatWhite">
+                <img src="assets/images/greatwhite.jpg" class="boximage">
+                <h3>Great White</h3>
+                <p id="greatHealth"></p>
+            </section>
+        </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg">
+                    <h3>Your Choice:</h3>
+                    <div id="attacker" class="container"></div>
+                </div>
+                <div class="col-lg">
+                    <h3>Your Opponent:</h3>
+                    <div id="defender" class="container"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <section class="col-lg-3">
+                    <button type="button" class="btn btn-primary btn-lg btn-block" id="attackButton">Attack</button>
+                </section>
+            </div>
+            <div id="dead"></div>
+
+
+        </div>
+        <hr>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+
+</html>
